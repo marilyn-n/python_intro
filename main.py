@@ -152,4 +152,35 @@ print(super_villains.values())
 # The if statement will execute code if a condition is met
 # White space is used to group blocks of code in Python
 # Use the same number of proceeding spaces for blocks of code
+age = 30 
+
+if age > 16 :
+    print('You are old enough to drive')
+else :
+    print('You are not old enough to drive') 
+
+# If you want to check for multiple conditions use elif
+# If the first matches it won't check other conditions that follow
  
+if age >= 21 :
+    print('You are old enough to drive a tractor trailer')
+elif age >= 16:
+    print('You are old enough to drive a car')
+else :
+    print('You are not old enough to drive')
+
+# You can combine conditions with logical operators
+# Logical Operators : and, or, not
+ 
+if ((age >= 1) and (age <= 18)):
+    print("You get a birthday party")
+elif (age == 21) or (age >= 65):
+    print("You get a birthday party")
+elif not(age == 30):
+    print("You don't get a birthday party")
+else:
+    print("You get a birthday party yeah")
+
+# FOR LOOPS ----------------------------------------------------------
+# Allows you to perform an action a set number of times
+# Range performs the action 10 times 0 - 9
