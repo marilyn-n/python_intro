@@ -208,3 +208,16 @@ for x in range(0,3):
 # WHILE LOOPS --------------------------------------------------
 # While loops are used when you don't know ahead of time how many
 # times you'll have to loop
+
+random_num = random.randrange(0,100)
+ 
+while (random_num != 15):
+    print(random_num)
+    random_num = random.randrange(0,100)
+
+# FUNCTIONS ------------------------------------------------------
+# Functions allow you to reuse and write readable code
+# Type def (define), function name and parameters it receives
+# return is used to return something to the caller of the function
+
+        
