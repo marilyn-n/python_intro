@@ -1,4 +1,4 @@
-# imports in Python
+# imports
 
 import random
 
@@ -44,3 +44,55 @@ print(multi_line_quote)
  
 grocery_list = ['Juice', 'Tomatoes', 'Potatoes', 'Bananas']
 print('The first item is', grocery_list[1])
+
+# You can change the value stored in a list box
+grocery_list[0] = "Green Juice"
+print(grocery_list)
+
+print(grocery_list[1:3])
+
+# You can put any data type in a list including a list
+other_events = ['Wash Car', 'Pick up Kids', 'Cash Check']
+to_do_list = [other_events, grocery_list]
+ 
+print(to_do_list)
+
+# Get the second item in the second list (Boxes inside of boxes)
+print(to_do_list[1][1])
+
+# You add values using append
+grocery_list.append('Onions')
+print(to_do_list)
+
+# Insert item at given index
+grocery_list.insert(1, "Pickle")
+print(grocery_list)
+
+# Remove item from list
+grocery_list.remove("Pickle")
+print(grocery_list)
+
+# Sorts items in list
+grocery_list.sort()
+print(grocery_list)
+
+# Reverse sort items in list
+grocery_list.reverse()
+print(grocery_list)
+
+# del deletes an item at specified index
+del grocery_list[4]
+print(to_do_list)
+
+# We can combine lists with a +
+to_do_list = other_events + grocery_list
+print(to_do_list)
+
+# Get length of list
+print(len(to_do_list))
+
+# Get the max item in list ???????????????????????????????????????????????????????????????
+print(max(to_do_list))
+
+# Get the minimum item in list
+print(min(to_do_list))
