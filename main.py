@@ -184,3 +184,27 @@ else:
 # FOR LOOPS ----------------------------------------------------------
 # Allows you to perform an action a set number of times
 # Range performs the action 10 times 0 - 9
+
+for x in range(0, 10):
+    print(x , ' ', end="")
+ 
+print('\n')
+
+# You can use for loops to cycle through a list
+for i in grocery_list:
+    print(i)
+
+# You can also define a list of numbers to cycle through
+for x in [2,4,6,8,10]:
+    print(x)    
+
+# You can double up for loops to cycle through lists
+num_list =[[1,2,3],[10,20,30],[100,200,300]]
+ 
+for x in range(0,3):
+    for y in range(0,3):
+        print(num_list[x][y])
+
+# WHILE LOOPS --------------------------------------------------
+# While loops are used when you don't know ahead of time how many
+# times you'll have to loop
