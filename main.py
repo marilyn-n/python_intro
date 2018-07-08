@@ -96,3 +96,23 @@ print(max(to_do_list))
 
 # Get the minimum item in list
 print(min(to_do_list))
+
+# TUPLES ---------------------------------------------------------
+# Values in a tuple can't change like lists
+ 
+pi_tuple = (3, 1, 4, 1, 5, 9)
+ 
+# Convert tuple into a list
+new_tuple = list(pi_tuple)
+print(new_tuple)
+
+# Convert a list into a tuple
+new_list = tuple(grocery_list)
+print(new_list)
+ 
+# tuples also have len(tuple), min(tuple) and max(tuple)
+ 
+# DICTIONARY or MAP -------------------------------------------------
+# Made up of values with a unique key for each value
+# Similar to lists, but you can't join dicts with a +
+ 
